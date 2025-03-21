@@ -1,0 +1,165 @@
+    1  git config --globsl user.name 'Yoselis Salazar'
+    2  git config --global user.name 'Yoselis Salazar'
+    3  git config --global user.email 'yoset3002@gmail.com'
+    4  git config user.name
+    5  cd Desktop
+    6  cd Área de Trabalho
+    7  cd Desktop
+    8  cd..
+    9  cd
+   10  cd Desktop
+   11  ls
+   12  cd Documents
+   13  ls
+   14  cd .
+   15  cd..
+   16  cd ..
+   17  ls ..
+   18  pwd
+   19  ls
+   20  ls ..
+   21  ls
+   22  ls -a
+   23  ls ..
+   24  pdw
+   25  pwd
+   26  ls ..
+   27  ls
+   28  cd oneDrive
+   29  ls
+   30  cd Desktop
+   31  ls
+   32  cd Curso_Git
+   33  git config user.name
+   34  git int
+   35  git init
+   36  git status
+   37  echo '#Aprendendo usar o Git' > readme.md
+   38  git status
+   39  git add readme.md
+   40  git status
+   41  git commit -m 'commit inicial'
+   42  git status
+   43  echo '##Aula 1' >>readme.me
+   44  git status
+   45  echo '##Aula 1' >> readme.md
+   46  git status
+   47  git status
+   48  echo 'yoselis salazar' > participantes.txt
+   49  git status
+   50  git add .
+   51  git status
+   52  git status
+   53  history
+   54  git ini
+   55  git int
+   56  git init
+   57  pwd
+   58  mkdir pastanova
+   59  cd pastanova
+   60  git init
+   61  git commit -am 'primero commit'
+   62  git branch segundaparte
+   63  git branch
+   64  git branch master
+   65  git init
+   66  git branch segundaparte
+   67  git log
+   68  git branch 'segundaparte'
+   69  git add .
+   70  git commit -m 'primer commit'
+   71  git branch segundaparte
+   72  git add .
+   73  git commit -m 'segundo commit'
+   74  git checkout segundaparte
+   75  git add .
+   76  git commit -m 'tercer commit'
+   77  git checkout master
+   78  git branch terceraparte
+   79  git checkout terceraparte
+   80  git add .
+   81  git commit -m 'termine history'
+   82  git log
+   83  git branch
+   84  git merge master
+   85  git branch master
+   86  git branch
+   87  git checkout master
+   88  git branch
+   89  git marge master
+   90  git merge master
+   91  git log --pretty = oneline --graph
+   92  git log --pretty=oneline --graph
+   93  git branch
+   94  git merge master
+   95  ls
+   96  git merge segundaparte
+   97  git merge terceraparte
+   98  ls
+   99  git log --pretty=oneline --graph
+  100  git branch
+  101  git checkout segundaparte
+  102  git branch
+  103  git checkout terceraparte
+  104  clear
+  105  ls
+  106  cd..
+  107  cd
+  108  ls
+  109  mkdir pasta2
+  110  ls
+  111  cd pasta2
+  112  mkdir history.txt
+  113  ls
+  114  clear
+  115  ls
+  116  git init
+  117  git add .
+  118  git commit -m 'primer commit'
+  119  git branch
+  120  git branch segundaparte
+  121  git branch
+  122  git checkout segundaparte
+  123  git branch
+  124  git checkout master
+  125  git branch
+  126  ls
+  127  git add .
+  128  ls
+  129  pwd
+  130  cd OneDrive
+  131  ls
+  132  cd Desktop
+  133  mkdir Curso_Git
+  134  cd Curso_Git
+  135  git init
+  136  git status
+  137  echo '#Aprendendo usar Git' > readme.md
+  138  git status
+  139  git add readme.me
+  140  git add readme.md
+  141  git status
+  142  git commit -m 'Commit inicial'
+  143  git status
+  144  echo '##Aula 1' >> readme.md
+  145  git status
+  146  less readme.md
+  147  cat readme.md
+  148  git status
+  149  echo 'Yoselis' > participantes.txt
+  150  git status
+  151  git add .
+  152  git status
+  153  git restore --stage participantes.txt
+  154  git status
+  155  git add participantes.txt
+  156  git status
+  157  git restore --staged .
+  158  git status
+  159  git commit -am 'Alteração no readme'
+  160  git status
+  161  git add participantes.txt
+  162  git status
+  163  git commit -m 'Adicionado partcipantes.txt'
+  164  git status
+  165  history > Aula3.txt
